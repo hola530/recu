@@ -78,3 +78,146 @@ a:active{
 	color: rgb(223, 246, 255);
 }
 
+/*ESTILOS PARA INDEX*/
+
+main article {
+    background-color: rgb(220, 233, 245);
+    padding: 1.5rem;
+    flex: 1 1 calc(33.333% - 2rem);
+    line-height: 1.8;
+}
+
+main article h2 {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+main article p {
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: rgb(27, 64, 99);
+}
+
+main article ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+main article ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgb(176, 211, 244);
+}
+
+main article ul li:last-child {
+    border-bottom: none;
+}
+
+main article ul li p,
+main article ul li a {
+    margin: 0;
+}
+
+/* ==================== GALERÍA - 2 COLUMNAS ==================== */
+
+main {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.obras {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.obras article {
+    background-color: rgb(220, 233, 245);
+    padding: 1rem;
+}
+
+.obras img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.obras iframe {
+    width: 100%;
+}
+
+.obras a {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.obras p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: rgb(27, 64, 99);
+}
+
+.botones {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.botones article {
+    background-color: rgb(220, 233, 245);
+    padding: 1.5rem;
+    border: 2px solid rgb(176, 211, 244);
+}
+
+.botones p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: rgb(27, 64, 99);
+    font-size: 0.95rem;
+}
+
+.botones button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: rgb(176, 211, 244);
+    color: rgb(6, 40, 61);
+    border: 2px solid rgb(71, 181, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botones button:hover {
+    background-color: rgb(71, 181, 255);
+    color: white;
+}
+
+.diseno button {
+    background-color: rgb(200, 170, 230);
+    border-color: rgb(170, 140, 200);
+}
+
+.diseno button:hover {
+    background-color: rgb(170, 140, 200);
+    color: white;
+}
+
+footer {
+    background-color: rgb(27, 64, 99);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: rgb(176, 211, 244);
+    text-decoration: none;
+    font-weight: bold;
+}
